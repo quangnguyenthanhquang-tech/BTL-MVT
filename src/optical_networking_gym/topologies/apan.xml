@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<network xmlns="http://sndlib.zib.de/network" version="1.0">
+ <networkStructure>
+  <nodes coordinatesType="geographical">
+   <node id="Tokyo">
+    <coordinates>
+     <x>139.69</x>
+     <y>35.69</y>
+    </coordinates>
+   </node>
+   <node id="Seoul">
+    <coordinates>
+     <x>126.98</x>
+     <y>37.57</y>
+    </coordinates>
+   </node>
+   <node id="Taipei">
+    <coordinates>
+     <x>121.56</x>
+     <y>25.03</y>
+    </coordinates>
+   </node>
+   <node id="HongKong">
+    <coordinates>
+     <x>114.17</x>
+     <y>22.32</y>
+    </coordinates>
+   </node>
+   <node id="Hanoi">
+    <coordinates>
+     <x>105.85</x>
+     <y>21.03</y>
+    </coordinates>
+   </node>
+   <node id="HoChiMinh">
+    <coordinates>
+     <x>106.7</x>
+     <y>10.78</y>
+    </coordinates>
+   </node>
+   <node id="Bangkok">
+    <coordinates>
+     <x>100.5</x>
+     <y>13.76</y>
+    </coordinates>
+   </node>
+   <node id="KualaLumpur">
+    <coordinates>
+     <x>101.69</x>
+     <y>3.14</y>
+    </coordinates>
+   </node>
+   <node id="Singapore">
+    <coordinates>
+     <x>103.82</x>
+     <y>1.35</y>
+    </coordinates>
+   </node>
+   <node id="Manila">
+    <coordinates>
+     <x>120.98</x>
+     <y>14.6</y>
+    </coordinates>
+   </node>
+  </nodes>
+  <links>
+   <link id="APAN_L01">
+    <source>Tokyo</source>
+    <target>Seoul</target>
+    <additionalModules>
+     <addModule>
+      <capacity>1152.33</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+   <link id="APAN_L02">
+    <source>Tokyo</source>
+    <target>Taipei</target>
+    <additionalModules>
+     <addModule>
+      <capacity>2099.2</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+   <link id="APAN_L03">
+    <source>Seoul</source>
+    <target>Taipei</target>
+    <additionalModules>
+     <addModule>
+      <capacity>1485.67</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+   <link id="APAN_L04">
+    <source>Taipei</source>
+    <target>HongKong</target>
+    <additionalModules>
+     <addModule>
+      <capacity>810.48</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+   <link id="APAN_L05">
+    <source>HongKong</source>
+    <target>Manila</target>
+    <additionalModules>
+     <addModule>
+      <capacity>1118.8</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+   <link id="APAN_L06">
+    <source>HongKong</source>
+    <target>Hanoi</target>
+    <additionalModules>
+     <addModule>
+      <capacity>871.48</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+   <link id="APAN_L07">
+    <source>HongKong</source>
+    <target>Singapore</target>
+    <additionalModules>
+     <addModule>
+      <capacity>2586.43</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+   <link id="APAN_L08">
+    <source>Hanoi</source>
+    <target>Bangkok</target>
+    <additionalModules>
+     <addModule>
+      <capacity>987.51</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+   <link id="APAN_L09">
+    <source>Hanoi</source>
+    <target>HoChiMinh</target>
+    <additionalModules>
+     <addModule>
+      <capacity>1143.35</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+   <link id="APAN_L10">
+    <source>Bangkok</source>
+    <target>KualaLumpur</target>
+    <additionalModules>
+     <addModule>
+      <capacity>1188.1</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+   <link id="APAN_L11">
+    <source>Bangkok</source>
+    <target>HoChiMinh</target>
+    <additionalModules>
+     <addModule>
+      <capacity>750.65</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+   <link id="APAN_L12">
+    <source>KualaLumpur</source>
+    <target>Singapore</target>
+    <additionalModules>
+     <addModule>
+      <capacity>309.23</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+   <link id="APAN_L13">
+    <source>HoChiMinh</source>
+    <target>Singapore</target>
+    <additionalModules>
+     <addModule>
+      <capacity>1095.75</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+   <link id="APAN_L14">
+    <source>Manila</source>
+    <target>Singapore</target>
+    <additionalModules>
+     <addModule>
+      <capacity>2392.5</capacity>
+      <cost>0.0</cost>
+     </addModule>
+    </additionalModules>
+   </link>
+  </links>
+ </networkStructure>
+</network>

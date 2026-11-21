@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<network xmlns="http://sndlib.zib.de/network" version="1.0">
+ <networkStructure>
+  <nodes coordinatesType="geographical">
+   <node id="Quan1">
+    <coordinates><x>106.7009</x><y>10.7769</y></coordinates>
+   </node>
+   <node id="ThuDuc">
+    <coordinates><x>106.7718</x><y>10.8494</y></coordinates>
+   </node>
+   <node id="Quan7">
+    <coordinates><x>106.7218</x><y>10.734</y></coordinates>
+   </node>
+   <node id="BinhDuong">
+    <coordinates><x>106.652</x><y>10.9804</y></coordinates>
+   </node>
+   <node id="Quan10">
+    <coordinates><x>106.6677</x><y>10.7746</y></coordinates>
+   </node>
+  </nodes>
+  <links>
+   <link id="HCM_L01">
+    <source>Quan1</source><target>ThuDuc</target>
+    <additionalModules><addModule><capacity>11.18</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L02">
+    <source>Quan1</source><target>Quan7</target>
+    <additionalModules><addModule><capacity>5.29</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L03">
+    <source>Quan1</source><target>BinhDuong</target>
+    <additionalModules><addModule><capacity>23.25</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L04">
+    <source>BinhDuong</source><target>ThuDuc</target>
+    <additionalModules><addModule><capacity>19.58</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L05">
+    <source>Quan1</source><target>Quan10</target>
+    <additionalModules><addModule><capacity>3.64</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L06">
+    <source>Quan10</source><target>BinhDuong</target>
+    <additionalModules><addModule><capacity>22.95</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+   <link id="HCM_L07">
+    <source>Quan10</source><target>Quan7</target>
+    <additionalModules><addModule><capacity>7.44</capacity><cost>0.0</cost></addModule></additionalModules>
+   </link>
+  </links>
+ </networkStructure>
+</network>
